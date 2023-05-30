@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 #!/bin/bash
 mkdir -p welcome/to/school
-=======
-#!/bin/bash
-mkdir -p welcome/to/school
->>>>>>> a0e0c3884659e239f2e1d1ccb259cda361c75859
