@@ -1,1 +1,2 @@
-#!bin/bash
+#!/bin/bash
+print "%2f'SNUM |sort
