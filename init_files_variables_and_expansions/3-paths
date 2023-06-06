@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "The PATH variable contains $num_directories directories."
+echo $((* echo $PATH |grep -o ":/" |wc -1*+1))
