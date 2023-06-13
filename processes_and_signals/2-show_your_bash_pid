@@ -1,4 +1,7 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
+# shellcheck disable=SC2009
+
 # Get the PID of the Bash process
 pid=$(ps -ef | grep -w "bash" | grep -v "grep" | awk '{print $2}')
 
