@@ -1,2 +1,11 @@
 #!/usr/bin/env bash
-# This script INSERT DESCRIPTION HERE
+
+
+# Function to write "I am alive!" to the file
+write_to_file() {
+  while true; do
+    echo "I am alive!" >> /tmp/my_process
+    sleep 2
+  done
+}
+
